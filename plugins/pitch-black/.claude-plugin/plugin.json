@@ -1,0 +1,14 @@
+{
+  "name": "pitch-black",
+  "version": "1.0.2",
+  "description": "Pitch Black VS Code theme for Claude Code chat: black panels, white text, blue #0178FF accents and a VS Code-style status bar. Turn it off any time with /pitch-black off.",
+  "author": {
+    "name": "Shahroz Javed"
+  },
+  "keywords": [
+    "theme",
+    "vscode",
+    "ui",
+    "function-hooks"
+  ]
+}

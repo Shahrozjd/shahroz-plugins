@@ -1,0 +1,15 @@
+{
+  "name": "shahroz-plugins",
+  "description": "Shahroz Javed's Claude Code plugins: themes, UI mods and tools.",
+  "owner": {
+    "name": "Shahroz Javed"
+  },
+  "plugins": [
+    {
+      "name": "pitch-black",
+      "source": "./plugins/pitch-black",
+      "description": "Pitch Black VS Code theme for the chat: black panels, white text, blue accents and a VS Code-style status bar.",
+      "category": "themes"
+    }
+  ]
+}
