@@ -8,8 +8,8 @@ My Claude Code plugins (terminal and the desktop Code tab).
 
 Add the marketplace once, then install any plugin from it:
 
-```
-/plugin marketplace add /Users/shahroz/Development/shahroz-plugins
+```bash
+claude plugin marketplace add Shahrozjd/shahroz-plugins
 ```
 
 ## Pitch Black
@@ -22,8 +22,6 @@ above the prompt (git branch, folder, working state, last turn's time).
 ```
 /plugin install pitch-black@shahroz-plugins
 ```
-
-From GitHub, once this folder is pushed: `/plugin marketplace add <owner>/shahroz-plugins`.
 
 ### Turn it off and on
 
