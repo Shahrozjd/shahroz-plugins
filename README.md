@@ -12,6 +12,22 @@ Add the marketplace once, then install any plugin from it:
 claude plugin marketplace add Shahrozjd/shahroz-plugins
 ```
 
+## Requirements
+
+These plugins are written as hooks modules, an early-access Claude Code
+feature. Unless the feature is already on for your account, an installed
+plugin loads but does nothing. Turn it on by adding this to the `env` block
+in `~/.claude/settings.json`, then start a new session:
+
+```json
+"env": {
+  "CLAUDE_CODE_ENABLE_FUNCTION_HOOKS": "1"
+}
+```
+
+To check, run `claude --debug` and look for
+`hooks module pitch-black@shahroz-plugins loaded`.
+
 ## Pitch Black
 
 Black panels, white text, blue `#0178FF` accents and a blue VS Code status bar
