@@ -10,6 +10,12 @@
       "source": "./plugins/pitch-black",
       "description": "Pitch Black VS Code theme for the chat: black panels, white text, blue accents and a VS Code-style status bar.",
       "category": "themes"
+    },
+    {
+      "name": "worktree-band",
+      "source": "./plugins/worktree-band",
+      "description": "One quiet line above the prompt: worktree, repo, branch and whether it is committed, pushed and up to date. Blocks commits and pushes to main.",
+      "category": "tools"
     }
   ]
 }

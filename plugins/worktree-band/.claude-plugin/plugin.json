@@ -1,0 +1,18 @@
+{
+  "name": "worktree-band",
+  "version": "0.7.0",
+  "description": "Know where Claude is editing: one quiet line above the prompt with the worktree, each repo's branch and whether it is committed, pushed and up to date. Blocks commits and pushes to main.",
+  "author": {
+    "name": "Shahroz Javed"
+  },
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "worktree",
+    "branch",
+    "status",
+    "safety"
+  ],
+  "types": "./types/index.d.ts",
+  "icon": "./.claude-plugin/icon.png"
+}
